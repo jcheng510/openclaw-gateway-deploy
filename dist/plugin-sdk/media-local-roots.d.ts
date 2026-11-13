@@ -1,0 +1,2 @@
+import { n as getAgentScopedMediaLocalRootsForSources, t as getAgentScopedMediaLocalRoots } from "../local-roots-BgAYdyQa.js";
+export { getAgentScopedMediaLocalRoots, getAgentScopedMediaLocalRootsForSources };

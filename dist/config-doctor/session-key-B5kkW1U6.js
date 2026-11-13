@@ -1,0 +1,50 @@
+Object.freeze([
+	"activity",
+	"agents",
+	"ai-agents",
+	"appearance",
+	"approve",
+	"apps",
+	"ask",
+	"automation",
+	"automations",
+	"channels",
+	"chat",
+	"communications",
+	"config",
+	"cron",
+	"custodian",
+	"dashboard",
+	"dashboards",
+	"debug",
+	"focus",
+	"infrastructure",
+	"lobsterdex",
+	"logs",
+	"mcp",
+	"meetings",
+	"memory-import",
+	"model-providers",
+	"model-setup",
+	"new",
+	"nodes",
+	"plugin",
+	"plugins",
+	"portals",
+	"profile",
+	"sessions",
+	"settings",
+	"share",
+	"skills",
+	"systems",
+	"terminal",
+	"usage",
+	"workboard",
+	"worktrees"
+]);
+//#endregion
+//#region src/routing/session-key.ts
+/** Legacy on-disk identity used only by doctor/migration and their fixtures. */
+const LEGACY_IMPLICIT_AGENT_ID = "main";
+//#endregion
+export { LEGACY_IMPLICIT_AGENT_ID as t };

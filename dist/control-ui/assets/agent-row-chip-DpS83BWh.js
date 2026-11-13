@@ -1,0 +1,10 @@
+import{n as e}from"./rolldown-runtime-8BhlS34s.js";import{Br as t,qr as n,zr as r}from"./control-ui-foundation-C3MHh_P-.js";import{Ic as i,Il as a,Pc as o,Rl as s,Vc as c,_l as l,cc as u,lu as d,nl as f,sc as p,su as m}from"./control-ui-core-pYNj5S1a.js";import{vi as h,yi as g}from"./control-ui-core-D6clmJs8.js";import{$ as _,Y as v,nt as y,ut as b}from"./lit-runtime-DZL1fcCI.js";import{Jo as x,Yo as S}from"./control-ui-boot-shared-3Hl8ksFq.js";import{Qa as C,eo as w}from"./control-ui-boot-shared-DJ4XCcp6.js";function T(e){return _`<openclaw-agent-row-chip .agentId=${e}></openclaw-agent-row-chip>`}var E;function D(){return(D=e((()=>{t(),v(),y(),g(),o(),a(),S(),f(),d(),u(),C(),E=class extends m{constructor(){super(),this.avatars=new x(this),new p(this).watch(()=>this.context?.agents,(e,t)=>e.subscribe(t)).watch(()=>this.context?.agentIdentity,(e,t)=>e.subscribe(t)).watch(()=>this.context?.gateway,(e,t)=>e.subscribe(t))}render(){let e=this.context?.agents.state.agentsList,t=this.agentId?.trim()||l({agentsList:e,hello:this.context?.gateway.snapshot.hello}),n=e?.agents.find(e=>e.id===t)??{id:t},r=this.context?.agentIdentity.get(t),a=i(n,r),o=a===t?`agent:${t}`:`${a} (agent:${t})`,u=s(n,r);return this.avatars.withActiveRoutes(()=>{let e=u?this.avatars.resolve(u):null;return _`<span
+        class="agent-row-chip"
+        data-agent-id=${t}
+        role="img"
+        aria-label=${o}
+        title=${o}
+      >
+        ${w({id:t,avatar:e,textAvatar:c(n,r)},`agent-row-chip__avatar`)}
+        <span class="agent-row-chip__name">${a}</span>
+      </span>`})}},n([r({context:h,subscribe:!0}),b({attribute:!1})],E.prototype,`context`,void 0),n([b({attribute:!1})],E.prototype,`agentId`,void 0),customElements.get(`openclaw-agent-row-chip`)||customElements.define(`openclaw-agent-row-chip`,E)})))()}export{T as n,D as t};

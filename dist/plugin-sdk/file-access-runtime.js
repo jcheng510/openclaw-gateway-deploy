@@ -1,0 +1,11 @@
+import { D as statRegularFileSync, E as statRegularFile, M as writeFileWithinRoot, _ as readRegularFileSync, a as canonicalPathFromExistingAncestor, g as readRegularFile, m as readLocalFileFromRoots, p as readFileWithinRoot, v as readSecureFile, w as root } from "../fs-safe-CHQXnCPk.mjs";
+import { i as isPathStrictlyInside, r as isPathInside } from "../path-guards-CH7noY0Z.mjs";
+import { a as openRootFile } from "../boundary-file-read-CCth2Hwg.mjs";
+import { n as resolvePreferredOpenClawTmpDir } from "../tmp-openclaw-dir-BSb3HetY.mjs";
+import { c as sha256File, l as syncDirectory, t as ensureDurableDirectory } from "../directory-durability-fWp4i1Sl.mjs";
+import { a as writeFileWindowFully } from "../file-descriptor-B4yBUiAP.mjs";
+import { t as readFileRangeAsync } from "../file-range-jGKnMXJ2.mjs";
+import { i as createStagedInputPathMatcher } from "../staged-inputs-DnU0MDyo.mjs";
+import { t as getFileWatchCapacityCode } from "../fs-watch-errors-D0zoLJOB.mjs";
+import { a as inspectPathPermissions, c as removePathWithinRoot, d as tempFile, i as fileExists, l as resolvePathPrefixSync, n as assertNoSymlinkParentsSync, o as readFileHandleBounded, r as basenameFromMediaSource, s as readFileWindowFully, t as assertNoSymlinkParents, u as safeFileURLToPath } from "../file-access-runtime-ClDR2VUS.mjs";
+export { assertNoSymlinkParents, assertNoSymlinkParentsSync, basenameFromMediaSource, canonicalPathFromExistingAncestor, createStagedInputPathMatcher, ensureDurableDirectory, fileExists, getFileWatchCapacityCode, inspectPathPermissions, isPathInside, isPathStrictlyInside, openRootFile, readFileHandleBounded, readFileRangeAsync, readFileWindowFully, readFileWithinRoot, readLocalFileFromRoots, readRegularFile, readRegularFileSync, readSecureFile, removePathWithinRoot, resolvePathPrefixSync, resolvePreferredOpenClawTmpDir, root, safeFileURLToPath, sha256File, statRegularFile, statRegularFileSync, syncDirectory, tempFile, writeFileWindowFully, writeFileWithinRoot };

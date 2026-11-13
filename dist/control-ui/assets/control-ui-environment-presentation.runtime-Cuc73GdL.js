@@ -1,0 +1,1 @@
+import{as as e,is as t,os as n,rs as r}from"./control-ui-boot-shared-DJ4XCcp6.js";t();export{r as applyControlUiPresentation,e as invalidateControlUiFaviconPalette,n as syncControlUiFavicon};

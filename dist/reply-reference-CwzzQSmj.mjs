@@ -1,0 +1,35 @@
+import { l as normalizeOptionalString } from "./string-coerce-6kR-86XC.mjs";
+//#region src/auto-reply/reply/reply-reference.ts
+/** Plans reply/thread references for multi-payload channel sends. */
+/** Returns true for modes that use a reply reference only before the first send. */
+function isSingleUseReplyToMode(mode) {
+	return mode === "first" || mode === "batched";
+}
+/** Creates a planner that tracks whether a reply reference has already been consumed. */
+function createReplyReferencePlanner(options) {
+	let hasReplied = options.hasReplied ?? false;
+	const allowReference = options.allowReference !== false;
+	const existingId = normalizeOptionalString(options.existingId);
+	const startId = normalizeOptionalString(options.startId);
+	const resolve = () => {
+		if (!allowReference || options.replyToMode === "off" || isSingleUseReplyToMode(options.replyToMode) && hasReplied) return;
+		return existingId ?? startId;
+	};
+	const use = () => {
+		const id = resolve();
+		if (!id) return;
+		hasReplied = true;
+		return id;
+	};
+	const markSent = () => {
+		hasReplied = true;
+	};
+	return {
+		peek: resolve,
+		use,
+		markSent,
+		hasReplied: () => hasReplied
+	};
+}
+//#endregion
+export { isSingleUseReplyToMode as n, createReplyReferencePlanner as t };

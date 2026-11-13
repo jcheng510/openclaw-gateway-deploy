@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-8BhlS34s.js";import{ha as t,ya as n}from"./control-ui-foundation-C3MHh_P-.js";import{an as r,on as i}from"./control-ui-core-pYNj5S1a.js";function a(e,t,r=!1){i(n({kind:`desktop`,source:t,control:r},e))}function o(){return(o=e((()=>{t(),r()})))()}export{a as n,o as t};

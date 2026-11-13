@@ -1,0 +1,2 @@
+import { a as touchSessionBrowserTab, i as filterTrackedSessionBrowserTabs, n as closeTrackedBrowserTabsForSessions, o as trackSessionBrowserTab, r as sweepTrackedBrowserTabs, s as untrackSessionBrowserTab, t as closeBrowserDashboardTabs } from "./session-tab-registry-B2vOnChv.mjs";
+export { closeBrowserDashboardTabs, closeTrackedBrowserTabsForSessions, filterTrackedSessionBrowserTabs, sweepTrackedBrowserTabs, touchSessionBrowserTab, trackSessionBrowserTab, untrackSessionBrowserTab };

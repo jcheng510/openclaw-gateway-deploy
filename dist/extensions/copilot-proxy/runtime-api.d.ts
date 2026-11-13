@@ -1,0 +1,2 @@
+import { L as ProviderAuthContext, R as ProviderAuthResult, n as OpenClawPluginApi, t as definePluginEntry } from "../../plugin-entry-vg94gAgL.js";
+export { type OpenClawPluginApi, type ProviderAuthContext, type ProviderAuthResult, definePluginEntry };

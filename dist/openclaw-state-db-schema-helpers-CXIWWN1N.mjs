@@ -1,0 +1,2 @@
+import { a as tableHasColumn, i as tableExists, n as ensureColumn, o as tableHasColumns, r as hasOpenClawStateTablesBeyondStartupCheckpoint, s as tablePrimaryKeyColumns, t as classifySqliteTableReadError } from "./openclaw-state-db-schema-helpers-C29HKgWe.mjs";
+export { classifySqliteTableReadError, ensureColumn, hasOpenClawStateTablesBeyondStartupCheckpoint, tableExists, tableHasColumn, tableHasColumns, tablePrimaryKeyColumns };

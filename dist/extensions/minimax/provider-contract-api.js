@@ -1,0 +1,2 @@
+import { n as createMinimaxProvider, r as minimaxAuthMethodMetadata, t as createMinimaxPortalProvider } from "../../provider-contract-api-BbBFJipQ.mjs";
+export { createMinimaxPortalProvider, createMinimaxProvider, minimaxAuthMethodMetadata };

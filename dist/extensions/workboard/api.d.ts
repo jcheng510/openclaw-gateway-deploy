@@ -1,0 +1,2 @@
+import { K as OpenClawPluginService, n as OpenClawPluginApi, t as definePluginEntry } from "../../plugin-entry-vg94gAgL.js";
+export { type OpenClawPluginApi, type OpenClawPluginService, definePluginEntry };
