@@ -1,0 +1,14 @@
+Dockerfile
+  h_11a4578b84bb53 1-14
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "c88c93cc9cf3d4197c9ad250fb2534bfe4a9a98f",
+  "prompts": {},
+  "humans": {
+    "h_11a4578b84bb53": {
+      "author": "Jade Cheng <jade@Jades-MacBook-Pro.local>"
+    }
+  }
+}
